@@ -8,6 +8,7 @@ import { CardColumns,
        from "react-bootstrap";
 import NavBarMod from './compoments/NavBar/NavBar';
 import Post from './compoments/Post/post';
+import Footer from "./compoments/Footer/Footer"
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
     </Container> */}
 
     <Post />
+    <Footer />
 
       
     </>
