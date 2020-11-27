@@ -6,12 +6,14 @@ const NavbarMod = () => {
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Cock Course</Navbar.Brand>
+          <Navbar.Brand href="#">Cock Course</Navbar.Brand>
           <Nav className="mr-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Courses</Nav.Link>
-            <Nav.Link href="#pricing">Blogs</Nav.Link>
-            <Nav.Link href="#pricing">Contact Us</Nav.Link>
+            <Nav.Link href="#">Home</Nav.Link>
+            <Nav.Link href="#">Courses</Nav.Link>
+            <Nav.Link href="#">Blogs</Nav.Link>
+            <Nav.Link href="#">Test Series</Nav.Link>
+            <Nav.Link href="#">Interview Questions</Nav.Link>
+            <Nav.Link href="#">Contact Us</Nav.Link>
           </Nav>
           <Form inline>
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />

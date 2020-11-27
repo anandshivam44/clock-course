@@ -7,13 +7,14 @@ import { CardColumns,
       }
        from "react-bootstrap";
 import NavBarMod from './compoments/NavBar/NavBar';
+import Post from './compoments/Post/post';
 
 
 function App() {
   return (
     <>
     <NavBarMod />
-    <Container>
+    {/* <Container>
       <Row>
         <Col md={1}>
         </Col>
@@ -28,7 +29,10 @@ function App() {
         <Col md={1}>
         </Col>
       </Row>
-    </Container>
+    </Container> */}
+
+    <Post />
+
       
     </>
   );
