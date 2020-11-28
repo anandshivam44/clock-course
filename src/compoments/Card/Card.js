@@ -1,25 +1,32 @@
 import React from "react";
-import { Button, Card } from "react-bootstrap";
+// import "./card.css";
 
-const CardMod = () => {
+const CardMod = ({ img, title, text }) => {
     return (
         <>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img
-                    variant="top"
-                    src="https://weneedfun.com/wp-content/uploads/2016/11/Avengers-Logo-9.jpg"
-                    width="100"
-                    height="100"
-                />
-                <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.</Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-            </Card>
+
+<div class="col-md-4">
+
+            <div class="card card-blog">
+                <div class="card-image">
+                    <img class="img" src={img} alt="hello" />
+                    <div class="card-caption"> {title} </div>
+
+                    <div class="ripple-cont"></div>
+                </div>
+                <div class="table">
+                    <h6 class="category text-info">uncategory</h6>
+                    <p class="card-description"> {text.substr(0,150)+"..."} </p>
+                </div>
+
+
+                <div class="ftr text-center"> <a href="#" class="btn btn-white btn-round">Read More</a> </div>
+            </div>
+            </div>
+
         </>
+
+
     )
 }
 export default CardMod;

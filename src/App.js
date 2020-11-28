@@ -1,13 +1,14 @@
 import './App.css';
-import CardMod from './compoments/Card/Card';
-import { CardColumns,
-          Container,
-          Col,
-          Row
-      }
-       from "react-bootstrap";
+// import { CardColumns,
+//           Container,
+//           Col,
+//           Row
+//       }
+//        from "react-bootstrap";
+
+import ListPost from "./compoments/ListPost/ListPost";
 import NavBarMod from './compoments/NavBar/NavBar';
-import Post from './compoments/Post/post';
+// import Post from './compoments/Post/post';
 import Footer from "./compoments/Footer/Footer"
 
 
@@ -15,6 +16,8 @@ function App() {
   return (
     <>
     <NavBarMod />
+    <ListPost />
+
     {/* <Container>
       <Row>
         <Col md={1}>
@@ -22,9 +25,6 @@ function App() {
         <Col md={10}>
     <br></br>
     <CardColumns>
-    <CardMod />
-    <CardMod />
-    <CardMod />
     </CardColumns>
         </Col>
         <Col md={1}>
@@ -32,7 +32,7 @@ function App() {
       </Row>
     </Container> */}
 
-    <Post />
+    {/* <Post /> */}
     <Footer />
 
       
