@@ -1,5 +1,5 @@
 import React from "react";
-// import "./card.css";
+// import "./card.css";zz
 
 const CardMod = ({ img, title, text }) => {
     return (
